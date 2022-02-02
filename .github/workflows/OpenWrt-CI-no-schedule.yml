@@ -8,6 +8,10 @@
 name: OpenWrt-CI-no-schedule
 
 on:
+  schedule:
+    - cron: 40 21 * * *
+  release:
+    types: [published]
   
 jobs:
 
