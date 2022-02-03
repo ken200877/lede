@@ -7,7 +7,7 @@
 #
 name: OpenWrt-CI-docker-x
 
-on: push
+on: #push
         
 env:
   CONFIG_FILE: .config-docker-x
