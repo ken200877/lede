@@ -50,7 +50,8 @@ jobs:
           ./scripts/feeds install -a
           
       - name: Load custom configuration
-        run: mv $CONFIG_FILE openwrt/.config
+        run: ls -al
+             mv $CONFIG_FILE openwrt/.config
               
       - name: Generate configuration file
         run: make defconfig
