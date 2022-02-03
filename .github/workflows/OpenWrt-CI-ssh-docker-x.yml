@@ -5,7 +5,7 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: OpenWrt-CI-Ken
+name: OpenWrt-CI-ssh-docker-x
 
 on:
   repository_dispatch:
