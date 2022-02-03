@@ -7,7 +7,7 @@
 #
 name: OpenWrt-CI-push-docker-m
 
-on: #push
+on: push
         
 env:
   CONFIG_FILE: .config-docker-m
@@ -51,6 +51,7 @@ jobs:
           
       - name: Load custom configuration
         run: ls -al
+             pwd
              mv $CONFIG_FILE openwrt/.config
               
       - name: Generate configuration file
