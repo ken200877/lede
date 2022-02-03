@@ -7,7 +7,7 @@
 #
 name: OpenWrt-CI-21-40
 
-on: #push
+#on: push
   
 jobs:
 
