@@ -17,7 +17,7 @@ on:
         default: 'false'
         
 env:
-  CONFIG_FILE: .config-netgear-r6800
+  CONFIG_FILE: .config-netgear-r6800-02
 
 jobs:
 
